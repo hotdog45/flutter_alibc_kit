@@ -1,9 +1,10 @@
 import 'dart:async';
 
 import 'package:flutter/services.dart';
-import 'package:flutter_alibc/albc_tools.dart';
-import 'package:flutter_alibc/alibc_const_key.dart';
-import 'package:flutter_alibc/alibc_model.dart';
+
+import 'albc_tools.dart';
+import 'alibc_const_key.dart';
+import 'alibc_model.dart';
 
 typedef LoginCallback = void Function(LoginModel model);
 typedef OpenCallback = void Function(TradeResult model);
